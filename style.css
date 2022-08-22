@@ -55,9 +55,17 @@ main {
   border: 8px solid var(--Neutral-white);
 }
 
-
 .user-data {
   text-align: center;
+}
+
+.user-data p:nth-child(1) {
+  font-weight: 700;
+}
+
+.user-data span {
+  font-weight: 400;
+  color: var(--Pri-Dark-grayish-blue);
 }
 
 .stats {
